@@ -1,0 +1,36 @@
+from turtle import *
+l_Side = 200
+s_Side = 140
+hideturtle()
+bgcolor("black")
+pencolor("white")
+pensize(4)
+penup()
+goto(-90,-90)
+pendown()
+forward(l_Side)
+setheading(120)
+forward(l_Side)
+setheading(240)
+forward(l_Side)
+setheading(45)
+fillcolor("white")
+begin_fill()
+forward(s_Side)
+setheading(315)
+forward(s_Side)
+end_fill()
+done()
+
+# another method
+
+#bgcolor("black")
+#pencolor("white")
+#pensize(4)
+#goto(170,0)
+#goto(0,210)
+#goto(-170,0)
+#goto(0,90)
+#goto(170,0)
+#goto(-170,0)
+#done()

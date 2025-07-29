@@ -1,0 +1,67 @@
+from turtle import *
+penup()
+goto(-80, -80)
+pendown()
+bgcolor("black")
+pencolor("white")
+pensize(4)
+hideturtle()
+
+   # width
+dot(9)
+forward(19)
+penup()
+forward(19)
+pendown()
+forward(38)
+penup()
+forward(19)
+pendown()
+forward(38)
+penup()
+forward(19)
+pendown()
+forward(19)
+dot(9)
+
+   # length
+left(90)
+forward(171)
+dot(9)
+left(90)
+
+# width
+dot(9)
+forward(19)
+penup()
+forward(19)
+pendown()
+forward(38)
+penup()
+forward(19)
+pendown()
+forward(38)
+penup()
+forward(19)
+pendown()
+forward(19)
+dot(9)
+
+   # length
+left(90)
+forward(171)
+dot(9)
+left(90)
+
+   # diagonal
+left(45)
+forward(120.5)
+dot(9)
+forward(120.5)
+right(135)
+forward(171)
+dot(9)
+right(135)
+forward(241)
+
+done()

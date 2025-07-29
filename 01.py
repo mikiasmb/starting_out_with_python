@@ -1,0 +1,8 @@
+name = input("Enter your name: ")
+Address = input("Enter address, city, state & ZIP:  ")
+Phone_number = int(input("Enter your phone number: "))
+collageMajor = input("Enter your collage major: ")
+print(f"Name - {name}")
+print(f"Address - {Address}")
+print(f"Phone number - {Phone_number}")
+print(f"Collage major - {collageMajor}")

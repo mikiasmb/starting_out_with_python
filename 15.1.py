@@ -1,0 +1,33 @@
+from turtle import *
+side = 100
+hideturtle()
+pencolor("white")
+bgcolor("black")
+pensize(4)
+penup()
+goto(-150, 0)
+pendown()
+setheading(45)
+forward(side)
+setheading(315)
+forward(side*2)
+setheading(45)
+forward(side)
+setheading(135)
+forward(side)
+setheading(225)
+forward(side*2)
+setheading(135)
+forward(side)
+done()
+
+# another method
+
+#goto(50, 100)
+#goto(100, 0)
+#goto(50, -100)
+#goto(-50, 100)
+#goto(-100, 0)
+#goto(-50, -100)
+#goto(0,0)
+#done()
